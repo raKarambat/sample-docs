@@ -5,8 +5,6 @@ slug : /
 
 # Overview
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
 ## Introduction
 
 PayDollar PayGate is a powerful web-based online payment services platform, which provides secure,
