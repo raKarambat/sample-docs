@@ -3,46 +3,27 @@ sidebar_position: 1
 slug : /
 ---
 
-# Tutorial Intro
+# Overview
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## Introduction
 
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+PayDollar PayGate is a powerful web-based online payment services platform, which provides secure,
+multi-channel, multi-lingual and multi-currency payment services. It is used by many renowned
+companies and organizations in the region.
+This technical specification document prescribes the constituent parts of specification for integration of
+an e-commerce web site with PayDollar e-commerce service, the on-line payment service by AsiaPay
+(HK) Limited, by subscribed merchants of the service. This document has been created to ensure that
+all technical specifications contain sufficient information to enable a merchant to design and modify the
+codes of an existing on-line shopping architecture or software to cater for the payment –enabling service.
+It also provides a checklist to enable the reviewers of specifications to conduct tests on the
+functionalities of the integration.
+There is an extra parameter section under each connection method. That section is especially designed
+for 3DS 2.0 (Three Domain Secure 2.0). 3DS authentication is an additional security layer for card-notpresent transactions. With 3DS 2.0, it is aimed to achieve a better, stronger fraud-detection intelligence.
+PayDollar PayGate facilitates merchant to connect to our network with great flexibility. Merchant can
+choose one of the following integration methods, which will be described in detail in the document.
+- Client Post through Browser (e.g. Shopping Cart)
+- Direct Client Side Connection
+- Server Side Direct Connection (e.g. IVR System, Mobile App)
+Moreover, a list of merchant API functions will be also described in detail in the later section. 

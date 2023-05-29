@@ -43,7 +43,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/raKarambat/sample-docs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/raKarambat/sample-docs/tree/main',
         },
         blog: false,
         /*blog: {
@@ -88,15 +88,7 @@ const config = {
       footer: {
         style: 'dark',
         links: [
-          {
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          },
+         
           {
             title: 'Community',
             items: [
@@ -117,10 +109,6 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
